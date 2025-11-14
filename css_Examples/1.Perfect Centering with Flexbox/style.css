@@ -1,0 +1,23 @@
+/* The Parent: Flex Container */
+.parent {
+  display: flex; /* Key 1: Enables Flexbox */
+  height: 300px; /* Key 2: Gives space for vertical centering */
+
+  /* Optional visual styles for clarity */
+  /* width: 400px; */
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+/* The Child: The Centered Item */
+.child {
+  width: 100px; /* Item size */
+  height: 100px; /* Item size */
+  margin: auto; /* Key 3: The magic for centering in both axes */
+
+  /* Optional visual styles for clarity */
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  line-height: 100px; /* Centers text vertically inside the child */
+}
